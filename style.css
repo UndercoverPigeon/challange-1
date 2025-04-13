@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+.square {
+  width: 319px;
+  height: 497px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  min-width: 319px;
+  min-height: 497;
+}
+.square img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+}
+.square h3 {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 13px;
+}
+.square p {
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  font-weight: 400;
+  margin: 10px;
+}
